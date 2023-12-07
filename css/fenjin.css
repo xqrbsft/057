@@ -1,0 +1,370 @@
+* {/*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.header {
+    /*头部*/
+    width: 100%;
+    height: 150px;
+}
+body{/*主体*/
+    background-color: rgb(235, 225, 225);
+}
+#hi1 {
+    /*头部图片*/
+    width: 100%;
+    height: 150px;
+}
+ 
+img{/*图片设置*/
+    border-radius: 15px;/*边框弧度*/
+ 
+}
+ 
+.dh ul {
+    /*导航栏*/
+    margin-bottom: 30px;
+    width: 1539px;
+    padding: 0px;
+    height: 30px;
+}
+ 
+.dh ul li {/*导航栏列表*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;/*列表样式*/
+    float: left;/*左浮动*/
+    display: inline;/*行内显示*/
+    font: 0.9em;/*字体大小*/
+}
+.dh{/*导航高度*/
+    height: 30px;
+}
+.dh ul li a {/*导航链接设置*/
+    text-align: center;/*文字居中*/
+    color: white;
+    width: 100%;
+    font-size: larger;
+    font-family: 楷体;
+    text-decoration: none;/*下划线无*/
+    display: block;/*块显示*/
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);/*底部边框*/
+}
+ 
+.dh ul li a:hover {
+    /*鼠标划导航栏时过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+ 
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;/*清除浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;/*字体设置*/
+    text-align: center;
+}
+.footer p{/*底部段落设置*/
+    margin-top: 10px;
+}
+ 
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;/*右浮动*/
+    padding: 0px;
+}
+span{
+    /*>>>行内设置*/
+    float: right;
+}
+span p{/*>>>行内段落设置*/
+    font-size: small;
+}
+span a{/*链接设置*/
+    color: rgb(0, 0, 0);
+}
+span a:hover{/*鼠标划过时链接变化*/
+    color: rgb(77, 248, 10);
+}
+.zhuti h2{/*主体标题设置*/
+    color: red;
+    font-family: 楷体;/*字体样式*/
+    margin-top: 20px;
+}
+.zhuti{/*主体设置*/
+    text-align: center;/*文本居中*/
+margin: 0px 200px 0px 200px;
+background-color: rgb(235, 225, 225);
+}
+#taiba{/*太白介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#taiba p{
+    letter-spacing: 2px;/*字简介*/
+    text-indent: 2em;/*缩进*/
+    line-height: 1.5em;/*行高设置*/
+    font-size: large;
+ 
+}
+#taiba img{/*太白图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#taiba img:hover {/*鼠标划过时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#caoyuan{/*关山草原介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#caoyuan p{/*关山草原段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#caoyuan img{/*关山草原图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#caoyuan img:hover {/*鼠标关山草原图片时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jialin{/*嘉陵江源头介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jialin p{/*嘉陵江源头段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jialin img{/*嘉陵江源头图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#jialin img:hover {/*鼠标划过时嘉陵江源头图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#baiyuan{/*黄柏塬介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#baiyuan p{/*黄柏塬段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#baiyuan img{/*黄柏塬图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#baiyuan img:hover {/*鼠标划过时黄柏塬图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#honghe{/*红河谷介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#honghe p{/*红河谷段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#honghe img{/*红河谷图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#honghe img:hover {/*鼠标划过红河谷图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#tongtian{/*通天河国家森林公园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#tongtian p{/*通天河国家森林公园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#tongtian img{/*通天河国家森林公园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#tongtian img:hover {/*鼠标划过通天河国家森林公园图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jifen{/*鸡峰山介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;/*字体大小*/
+    padding: 10px;
+    font-family: 楷体;
+}
+#jifen p{/*鸡峰山段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jifen img{/*鸡峰山图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#jifen img:hover {/*鼠标划过鸡峰山图片设置*/
+    transform: scale(1.2);
+ 
+}
+ 
+#qianhu{/*千湖国家湿地公园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#qianhu p{/*千湖国家湿地公园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#qianhu img{/*千湖国家湿地公园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#qianhu img:hover {/*鼠标划过千湖国家湿地公园图片设置*/
+    transform: scale(1.2);
+ 
+}
+ 
+#longmen{/*陕西省龙门洞森林公园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#longmen p{/*陕西省龙门洞森林公园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#longmen img{/*陕西省龙门洞森林公园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#longmen img:hover {/*鼠标划过陕西省龙门洞森林公园图片设置*/
+    transform: scale(1.2);
+ 
+}
+ 
+#qinfen{/*青峰峡森林公园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color:w;
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#qinfen p{/*青峰峡森林公园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#qinfen img{/*青峰峡森林公园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#qinfen img:hover {/*鼠标划过青峰峡森林公园图片设置*/
+    transform: scale(1.2);
+ 
+}
+.zhuti a{/*主体超链接设置*/
+    text-decoration: none;
+}
